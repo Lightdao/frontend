@@ -1,0 +1,48 @@
+.stats-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.stats-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #7c5afb;
+}
+
+.stats-search-bar {
+  flex: 1;
+  margin: 0 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.stats-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.stats-nav-links a {
+  color: #555;
+  text-decoration: none;
+}
+
+.stats-create-btn {
+  background-color: #7c5afb;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.stats-profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
