@@ -1,0 +1,12 @@
+.drop-footer {
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.drop-footer input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
