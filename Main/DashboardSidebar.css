@@ -1,0 +1,30 @@
+.dashboard-sidebar {
+  width: 250px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-right: 1px solid #ddd;
+  height: 100vh;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sidebar-menu li.active {
+  background-color: #7c5afb;
+  color: white;
+}
+
+.sidebar-menu hr {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin: 20px 0;
+}
