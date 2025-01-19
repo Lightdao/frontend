@@ -1,5 +1,5 @@
 import React from "react";
-import "./NFTCard.css";
+import "./MarketplaceNFTCard.css";
 
 type NFTCardProps = {
   title: string;
