@@ -1,0 +1,61 @@
+.new-listings-step3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.description {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.upload-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  border: 2px dashed #ddd;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+.upload-instructions {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.file-formats {
+  color: #666;
+  font-size: 14px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+}
+
+.back-button, .next-button {
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.next-button {
+  background-color: #007bff;
+  color: white;
+}
