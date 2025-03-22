@@ -1,24 +1,41 @@
 import React from 'react';
 import './NewListingsStep3.css';
 
-const NewListingsStep3: React.FC = () => {
+const NewListingsStep3 = () => {
   return (
-    <div className="new-listings-step3">
-      <div className="header">Upload an item</div>
-      <div className="description">
-        They all serve the same purpose, but each one takes a different approach and makes different tradeoffs.
-      </div>
-      <div className="upload-section">
-        <div className="upload-instructions">
-          Drag your item to upload
+    <div className="step3-container">
+      {/* Top Bar */}
+      <div className="top-bar">
+        <div className="logo-circle">
+          <div className="logo-shape" />
         </div>
-        <div className="file-formats">
+        <button className="cancel-button">Cancel</button>
+      </div>
+
+      {/* Title */}
+      <h1 className="title">Upload an item</h1>
+      <p className="subtitle">
+        They all serve the same purpose, but each one takes a different approach and makes different tradeoffs.
+      </p>
+
+      {/* Upload Box */}
+      <div className="upload-box">
+        <div className="upload-icon">⭳</div>
+        <div className="upload-instruction">Drag your item to upload</div>
+        <div className="upload-details">
           PNG, GIF, WebP, MP4 or MP3. Maximum file size 100 Mb.
         </div>
       </div>
-      <div className="navigation">
-        <button className="back-button">Back</button>
-        <button className="next-button">Next</button>
+
+      {/* Navigation Buttons */}
+      <div className="navigation-buttons">
+        <button className="nav-button back">Back</button>
+        <button className="nav-button next">Next</button>
+      </div>
+
+      {/* Progress Bar */}
+      <div className="progress-bar">
+        <div className="progress-fill" />
       </div>
     </div>
   );
