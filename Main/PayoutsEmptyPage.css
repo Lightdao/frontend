@@ -1,0 +1,197 @@
+.payouts-page {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  min-height: 988px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Top Navigation */
+.top-bar {
+  position: relative;
+  height: 84px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 3px 4px rgba(153, 155, 168, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  z-index: 10;
+}
+
+.logo {
+  font-family: 'Ethnocentric', sans-serif;
+  font-size: 18px;
+  color: #7a52f4;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.search-bar {
+  width: 519px;
+  height: 40px;
+  background: rgba(235, 240, 240, 0.5);
+  border-radius: 23px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.search-bar input {
+  border: none;
+  background: transparent;
+  outline: none;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #5d5d5b;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  gap: 29px;
+  font-weight: 700;
+}
+
+.nav-links a {
+  font-size: 16px;
+  color: #5d5d5b;
+  text-decoration: none;
+}
+
+.nav-links a:first-child {
+  color: #000;
+}
+
+.create-button {
+  background: #7a52f4;
+  color: white;
+  border: none;
+  border-radius: 23px;
+  width: 98px;
+  height: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: url('/path-to-your-image.png') center center / cover no-repeat;
+  margin-left: 16px;
+}
+
+/* Sidebar */
+.sidebar {
+  position: absolute;
+  top: 84px;
+  left: 0;
+  width: 256px;
+  height: 839px;
+  background: #ffffff;
+  padding: 44px 0 0 32px;
+}
+
+.sidebar-section {
+  margin-bottom: 24px;
+  font-weight: 300;
+  font-size: 14px;
+  color: #5d5d5b;
+}
+
+.sidebar-item {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  padding: 0 18px;
+  margin: 8px 0;
+  border-radius: 28px;
+  background-color: #ffffff;
+  color: #5d5d5b;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.sidebar-item.active {
+  background-color: rgba(235, 240, 240, 0.5);
+  color: #000;
+}
+
+/* Content Area */
+.main-content {
+  margin-left: 256px;
+  padding: 40px 40px 0;
+}
+
+.payouts-heading {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 40px;
+  color: #000;
+}
+
+.payouts-illustration {
+  width: 248px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.payouts-status {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.payouts-status h3 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #000;
+}
+
+.payouts-status p {
+  font-size: 14px;
+  color: #5d5d5b;
+  margin-top: 8px;
+}
+
+/* Button */
+.list-nft-button {
+  display: block;
+  margin: 24px auto 0;
+  width: 233px;
+  height: 46px;
+  background: #7a52f4;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 23px;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 86px;
+  background: rgba(235, 240, 240, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+  font-size: 12px;
+}
+
+.footer .left-links {
+  display: flex;
+  gap: 22px;
+  font-weight: 700;
+}
+
+.footer .right-info {
+  display: flex;
+  gap: 24
