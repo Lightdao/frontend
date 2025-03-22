@@ -1,0 +1,139 @@
+/* Account setting / Wallet / One Page */
+
+.account-settings-wallet-page {
+  position: relative;
+  width: 1440px;
+  height: 2463px;
+  background: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+}
+
+.header {
+  position: absolute;
+  width: 363px;
+  height: 102px;
+  left: 80px;
+  top: 140px;
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 51px;
+  color: #000;
+}
+
+.subtitle {
+  position: absolute;
+  width: 472px;
+  height: 48px;
+  left: 80px;
+  top: 240px;
+}
+
+.subtitle h2 {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  color: #000;
+}
+
+.subtitle p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #5D5D5B;
+  margin-top: 5px;
+}
+
+.wallet-box {
+  position: absolute;
+  width: 618px;
+  height: 284px;
+  left: 76px;
+  top: 515px;
+  border: 1px solid #000;
+  border-radius: 24px;
+}
+
+.wallet-divider {
+  position: absolute;
+  width: 617px;
+  left: 77px;
+  top: 657px;
+  border-top: 1px solid #000;
+}
+
+.link-wallet-btn {
+  position: absolute;
+  width: 462px;
+  height: 56px;
+  left: 158px;
+  top: 703px;
+  background: #D9D9D9;
+  border: 1px solid #000;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.buttons {
+  position: absolute;
+  top: 2271px;
+  left: 80px;
+  display: flex;
+  gap: 30px;
+}
+
+.buttons .publish {
+  width: 193px;
+  height: 46px;
+  background: #7A52F4;
+  border-radius: 23px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.buttons .discard {
+  width: 193px;
+  height: 46px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), #7A52F4;
+  border-radius: 23px;
+  color: #7A52F4;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.footer {
+  position: absolute;
+  width: 1440px;
+  height: 86px;
+  top: 2377px;
+  background: rgba(235, 240, 240, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+  font-size: 12px;
+}
+
+.footer .links a,
+.footer .links span {
+  margin-right: 22px;
+  color: #000;
+  font-weight: 700;
+}
+
+.footer .links span:last-child {
+  color: #5D5D5B;
+  font-weight: 500;
+}
+
+.footer .footer-buttons button {
+  background: none;
+  border: none;
+  font-weight: 700;
+  color: #000;
+  margin-left: 20px;
+}
