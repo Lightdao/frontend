@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './NewListingsStep2.css';
 
-const UploadItem = () => {
+const UploadItem: React.FC = () => {
   const [selected, setSelected] = useState<'single' | 'collection' | null>(null);
 
   return (
