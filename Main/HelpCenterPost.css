@@ -1,0 +1,68 @@
+.help-center-post {
+  position: absolute;
+  width: 849px;
+  height: 438px;
+  left: 423px;
+  top: 295px;
+  font-family: 'Inter', sans-serif;
+}
+
+.intro-text {
+  position: absolute;
+  height: 72px;
+  left: 0.12%;
+  right: 2.24%;
+  top: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.quote-box {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 21.92%;
+  bottom: 47.03%;
+  border: 1px solid #CFDBD5;
+  border-radius: 10px;
+  opacity: 0.6;
+}
+
+.quote-text {
+  position: absolute;
+  height: 90px;
+  left: 3.53%;
+  right: 27.92%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #5D5D5B;
+}
+
+.main-text {
+  position: absolute;
+  height: 120px;
+  left: 0.12%;
+  right: 0%;
+  top: 220px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.note-text {
+  position: absolute;
+  height: 42px;
+  left: 0.12%;
+  right: 2.24%;
+  top: 340px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #5D5D5B;
+}
