@@ -1,0 +1,15 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgFactCheck = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={24}
+    height={24}
+    fill="#1f1f1f"
+    viewBox="0 -960 960 960"
+    {...props}
+  >
+    <path d="M160-120q-33 0-56.5-23.5T80-200v-560q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v560q0 33-23.5 56.5T800-120zm0-80h640v-560H160zm40-80h200v-80H200zm382-80 198-198-57-57-141 142-57-57-56 57zm-382-80h200v-80H200zm0-160h200v-80H200zm-40 400v-560z" />
+  </svg>
+);
+export default SvgFactCheck;
